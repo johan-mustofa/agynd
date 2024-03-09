@@ -1,0 +1,165 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+Options All -Indexes
+
+ReWriteEngine On
+RewriteRule ^aussie-rules/live$  aussie-rules/live.php
+RewriteRule ^aussie-rules/schedule/(.*?)$  aussie-rules/schedule.php?date=$1 [NC]
+RewriteRule ^aussie-rules/schedule/(.*?)$  aussie-rules/schedule.php?date=$1 [NC,L]
+RewriteRule ^aussie-rules/schedule$  aussie-rules/schedule.php
+
+ReWriteEngine On
+RewriteRule ^badminton/live$  badminton/live.php
+RewriteRule ^badminton/schedule/(.*?)$  badminton/schedule.php?date=$1 [NC]
+RewriteRule ^badminton/schedule/(.*?)$  badminton/schedule.php?date=$1 [NC,L]
+RewriteRule ^badminton/schedule$  badminton/schedule.php
+
+ReWriteEngine On
+RewriteRule ^bandy/live$  bandy/live.php
+RewriteRule ^bandy/schedule/(.*?)$  bandy/schedule.php?date=$1 [NC]
+RewriteRule ^bandy/schedule/(.*?)$  bandy/schedule.php?date=$1 [NC,L]
+RewriteRule ^bandy/schedule$  bandy/schedule.php
+
+ReWriteEngine On
+RewriteRule ^beach-volley/live$  beach-volley/live.php
+RewriteRule ^beach-volley/schedule/(.*?)$  beach-volley/schedule.php?date=$1 [NC]
+RewriteRule ^beach-volley/schedule/(.*?)$  beach-volley/schedule.php?date=$1 [NC,L]
+RewriteRule ^beach-volley/schedule$  beach-volley/schedule.php
+
+ReWriteEngine On
+RewriteRule ^baseball/live$  baseball/live.php
+RewriteRule ^baseball/schedule/(.*?)$  baseball/schedule.php?date=$1 [NC]
+RewriteRule ^baseball/schedule/(.*?)$  baseball/schedule.php?date=$1 [NC,L]
+RewriteRule ^baseball/schedule$  baseball/schedule.php
+
+ReWriteEngine On
+RewriteRule ^basketball/live$  basketball/live.php
+RewriteRule ^basketball/schedule/(.*?)$  basketball/schedule.php?date=$1 [NC]
+RewriteRule ^basketball/schedule/(.*?)$  basketball/schedule.php?date=$1 [NC,L]
+RewriteRule ^basketball/schedule$  basketball/schedule.php
+
+ReWriteEngine On
+RewriteRule ^cricket/live$  cricket/live.php
+RewriteRule ^cricket/schedule/(.*?)$  cricket/schedule.php?date=$1 [NC]
+RewriteRule ^cricket/schedule/(.*?)$  cricket/schedule.php?date=$1 [NC,L]
+RewriteRule ^cricket/schedule$  cricket/schedule.php
+
+ReWriteEngine On
+RewriteRule ^darts/live$  darts/live.php
+RewriteRule ^darts/schedule/(.*?)$  darts/schedule.php?date=$1 [NC]
+RewriteRule ^darts/schedule/(.*?)$  darts/schedule.php?date=$1 [NC,L]
+RewriteRule ^darts/schedule$  darts/schedule.php
+
+ReWriteEngine On
+RewriteRule ^esports/live$  esports/live.php
+RewriteRule ^esports/schedule/(.*?)$  esports/schedule.php?date=$1 [NC]
+RewriteRule ^esports/schedule/(.*?)$  esports/schedule.php?date=$1 [NC,L]
+RewriteRule ^esports/schedule$  esports/schedule.php
+
+ReWriteEngine On
+RewriteRule ^floorball/live$  floorball/live.php
+RewriteRule ^floorball/schedule/(.*?)$  floorball/schedule.php?date=$1 [NC]
+RewriteRule ^floorball/schedule/(.*?)$  floorball/schedule.php?date=$1 [NC,L]
+RewriteRule ^floorball/schedule$  floorball/schedule.php
+
+ReWriteEngine On
+RewriteRule ^futsal/live$  futsal/live.php
+RewriteRule ^futsal/schedule/(.*?)$  futsal/schedule.php?date=$1 [NC]
+RewriteRule ^futsal/schedule/(.*?)$  futsal/schedule.php?date=$1 [NC,L]
+RewriteRule ^futsal/schedule$  futsal/schedule.php
+
+ReWriteEngine On
+RewriteRule ^handball/live$  handball/live.php
+RewriteRule ^handball/schedule/(.*?)$  handball/schedule.php?date=$1 [NC]
+RewriteRule ^handball/schedule/(.*?)$  handball/schedule.php?date=$1 [NC,L]
+RewriteRule ^handball/schedule$  handball/schedule.php
+
+ReWriteEngine On
+RewriteRule ^football/live$  football/live.php
+RewriteRule ^football/schedule/(.*?)$  football/schedule.php?date=$1 [NC]
+RewriteRule ^football/schedule/(.*?)$  football/schedule.php?date=$1 [NC,L]
+RewriteRule ^football/schedule$  football/schedule.php
+
+ReWriteEngine On
+RewriteRule ^ice-hockey/live$  ice-hockey/live.php
+RewriteRule ^ice-hockey/schedule/(.*?)$  ice-hockey/schedule.php?date=$1 [NC]
+RewriteRule ^ice-hockey/schedule/(.*?)$  ice-hockey/schedule.php?date=$1 [NC,L]
+RewriteRule ^ice-hockey/schedule$  ice-hockey/schedule.php
+
+ReWriteEngine On
+ReWriteEngine On
+RewriteRule ^motorsport/live$  motorsport/live.php
+RewriteRule ^motorsport/schedule/(.*?)$  motorsport/schedule.php?date=$1 [NC]
+RewriteRule ^motorsport/schedule/(.*?)$  motorsport/schedule.php?date=$1 [NC,L]
+RewriteRule ^motorsport/schedule$  motorsport/schedule.php
+
+ReWriteEngine On
+RewriteRule ^rugby/live$  rugby/live.php
+RewriteRule ^rugby/schedule/(.*?)$  rugby/schedule.php?date=$1 [NC]
+RewriteRule ^rugby/schedule/(.*?)$  rugby/schedule.php?date=$1 [NC,L]
+RewriteRule ^rugby/schedule$  rugby/schedule.php
+
+ReWriteEngine On
+RewriteRule ^snooker/live$  snooker/live.php
+RewriteRule ^snooker/schedule/(.*?)$  snooker/schedule.php?date=$1 [NC]
+RewriteRule ^snooker/schedule/(.*?)$  snooker/schedule.php?date=$1 [NC,L]
+RewriteRule ^snooker/schedule$  snooker/schedule.php
+
+ReWriteEngine On
+RewriteRule ^soccer/live$  soccer/live.php
+RewriteRule ^soccer/schedule/(.*?)$  soccer/schedule.php?date=$1 [NC]
+RewriteRule ^soccer/schedule/(.*?)$  soccer/schedule.php?date=$1 [NC,L]
+RewriteRule ^soccer/schedule$  soccer/schedule.php
+
+ReWriteEngine On
+RewriteRule ^table-tennis/live$  table-tennis/live.php
+RewriteRule ^table-tennis/schedule/(.*?)$  table-tennis/schedule.php?date=$1 [NC]
+RewriteRule ^table-tennis/schedule/(.*?)$  table-tennis/schedule.php?date=$1 [NC,L]
+RewriteRule ^table-tennis/schedule$  table-tennis/schedule.php
+
+ReWriteEngine On
+RewriteRule ^tennis/live$  tennis/live.php
+RewriteRule ^tennis/schedule/(.*?)$  tennis/schedule.php?date=$1 [NC]
+RewriteRule ^tennis/schedule/(.*?)$  tennis/schedule.php?date=$1 [NC,L]
+RewriteRule ^tennis/schedule$  tennis/schedule.php
+
+ReWriteEngine On
+RewriteRule ^volleyball/live$  volleyball/live.php
+RewriteRule ^volleyball/schedule/(.*?)$  volleyball/schedule.php?date=$1 [NC]
+RewriteRule ^volleyball/schedule/(.*?)$  volleyball/schedule.php?date=$1 [NC,L]
+RewriteRule ^volleyball/schedule$  volleyball/schedule.php
+
+ReWriteEngine On
+RewriteRule ^waterpolo/live$  waterpolo/live.php
+RewriteRule ^waterpolo/schedule/(.*?)$  waterpolo/schedule.php?date=$1 [NC]
+RewriteRule ^waterpolo/schedule/(.*?)$  waterpolo/schedule.php?date=$1 [NC,L]
+RewriteRule ^waterpolo/schedule$  waterpolo/schedule.php
+
+ReWriteEngine On
+RewriteRule ^(.*?)/live/(.*?)/(.*?)$  live.php?gsilvers=$3 [NC]
+RewriteRule ^(.*?)/live/(.*?)/(.*?)$  live.php?gsilvers=$3 [NC,L]
+RewriteRule ^(.*?)/live/(.*?)/(.*?)$  live.php?gsilvers=$3
+
+ReWriteEngine On
+RewriteRule ^/event/(.*?)/(.*?)$  event.php?title=$1&desc=$2 [NC]
+RewriteRule ^/event/(.*?)/(.*?)$  event.php?title=$&desc=$2 [NC,L]
+RewriteRule ^event/(.*?)$  event.php?title=$1
+
+ReWriteEngine On
+RewriteRule ^about$  about.php
+RewriteRule ^contact$  contact.php
+RewriteRule ^privacy-policy$  privacy-policy.php
+RewriteRule ^terms-of-use$  terms-of-use.php
+
+RewriteEngine On
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+RewriteRule ^sitemap\.xml/?$ sitemap.php
+
+</IfModule>
+
+# # Enable expirations
+# ExpiresActive On
+# # HTML
+# ExpiresByType text/html "access plus 2 days"
